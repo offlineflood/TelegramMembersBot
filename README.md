@@ -28,6 +28,11 @@
 
 ## • Necə Quraşdırılır və İstifadə Edilir.
 
+---
+
+<details>
+  <summary><b>𝙏𝙚𝙡𝙚𝙛𝙤𝙣 𝙪̈𝙘̧𝙪̈𝙣:</b></summary>
+  
 ```bash
 $ pkg install -y git python
 ```
@@ -72,6 +77,7 @@ $ python setup.py -u
 ```
 ---
 
+</details>
 
 <details>
   <summary><b>𝙆𝙖𝙢𝙥𝙪𝙩𝙤𝙧 𝙪̈𝙘̧𝙪̈𝙣:</b></summary>
