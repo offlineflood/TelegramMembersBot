@@ -21,11 +21,19 @@
 ---
 
 ## • API Quraşdırma
+
+---
+
+<details>
+  <summary><b>𝙌𝙪𝙧𝙖𝙨̧𝙙ı𝙧𝙢𝙖 𝙪̈𝙘̧𝙪̈𝙣:</b></summary>
 * http://my.telegram.org saytına daxil olun və daxil olun.
 * API inkişaf alətlərinə klikləyin və tələb olunan sahələri doldurun.
 * istədiyiniz proqram adını qoyun və platformada digərini seçin Misal:
 * Tətbiq yarat düyməsini kliklədikdən sonra "api_id" və "api_hash" kopyalayın (setup.py-də istifadə olunacaq)
+</details>
 
+  ---
+  
 ## • Necə Quraşdırılır və İstifadə Edilir.
 
 ---
