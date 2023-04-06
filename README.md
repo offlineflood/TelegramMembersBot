@@ -74,8 +74,8 @@ $ python setup.py -u
 <details>
   <summary><b>𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢:</b></summary>
   
-  [𝘋𝘦𝘨𝘎𝘪𝘹𝘔](https://t.me/DegGixM)
+  ❐ [𓅓𝘋𝘦𝘨𝘎𝘪𝘹𝘔𓅓](https://t.me/DegGixM)
   
-  [❖𝘿𝙚𝙟𝙖𝙫𝙪 𝙏𝙚𝙖𝙢❖](https://t.me/DejavuTeam)
+  ❐ [❖𝘿𝙚𝙟𝙖𝙫𝙪 𝙏𝙚𝙖𝙢❖](https://t.me/DejavuTeam)
   
 ---
