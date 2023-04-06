@@ -1,6 +1,6 @@
 # Telegram Members Bot
 <p align="center">
-  <img src="https://te.legra.ph/file/50771de1bcd2e67af5ae4.jpg" width="600" height="600">
+  <img src="https://te.legra.ph/file/50771de1bcd2e67af5ae4.jpg" width="500" height="600">
 </p>
 
 <p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen"></p>
