@@ -38,7 +38,7 @@
 
 `$ python setup.py -i`
 
-* quraşdırma konfiqurasiya faylı (apiID, apiHASH)
+* quraşdırma konfiqurasiya faylı (apiID, apiHASH).
 
 `$ python setup.py -c`
 
@@ -47,7 +47,7 @@
 `$ python scraper.py`
 
 * (adı dəyişsəniz, member.csv defoltdur, ondan istifadə edin)
-* Toplanmış məlumatlara toplu sms göndərin 
+* Toplanmış məlumatlara toplu sms göndərin.
 
 `$ python smsbot.py members.csv`
 
