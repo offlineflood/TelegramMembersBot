@@ -28,31 +28,45 @@
 
 ## • Necə Quraşdırılır və İstifadə Edilir.
 
-```$ pkg install -y git python```
+```bash
+$ pkg install -y git python
+```
 
 ```bash
 $ git clone https://github.com/offlineflood/TelegramMembersBot.git
 ```
 
-```$ cd TelegramMembersBot```
+```bash
+$ cd TelegramMembersBot
+```
 
 * Quraşdırma tələbləri
 
-```$ python setup.py -i```
+```bash
+$ python setup.py -i
+```
 
 * quraşdırma konfiqurasiya faylı (apiID, apiHASH).
 
-```$ python setup.py -c```
+```bash
+$ python setup.py -c
+```
 
 * İstifadəçi məlumatlarını yaratmaq üçün
 
-```$ python scraper.py```
+```bash
+$ python scraper.py
+```
 
 * (adı dəyişsəniz, member.csv defoltdur, ondan istifadə edin)
 * Toplanmış məlumatlara toplu sms göndərin.
 
-```$ python add2group.py members.csv```
+```bash
+$ python add2group.py members.csv
+```
 
 * Yeniləmə Aləti
 
-```$ python setup.py -u```
+```bash
+$ python setup.py -u
+```
