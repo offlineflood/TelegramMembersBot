@@ -26,7 +26,7 @@
 * istədiyiniz proqram adını qoyun və platformada digərini seçin Misal:
 * Tətbiq yarat düyməsini kliklədikdən sonra "api_id" və "api_hash" kopyalayın (setup.py-də istifadə olunacaq)
 
-## • Necə Quraşdırılır və İstifadə Edilir
+## • Necə Quraşdırılır və İstifadə Edilir.
 
 `$ pkg install -y git python`
 
