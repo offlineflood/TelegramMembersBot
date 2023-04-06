@@ -71,6 +71,40 @@ $ python add2group.py members.csv
 $ python setup.py -u
 ```
 ---
+
+
+<details>
+  <summary><b>𝙆𝙖𝙢𝙥𝙪𝙩𝙤𝙧 𝙪̈𝙘̧𝙪̈𝙣:</b></summary>
+
+```bash
+python setup.py -i
+```
+
+* quraşdırma konfiqurasiya faylı (apiID, apiHASH).
+
+```bash
+python setup.py -c
+```
+
+* İstifadəçi məlumatlarını yaratmaq üçün
+
+```bash
+python scraper.py
+```
+
+* (adı dəyişsəniz, member.csv defoltdur, ondan istifadə edin)
+* Toplanmış məlumatlara toplu sms göndərin.
+
+```bash
+python add2group.py members.csv
+```
+
+* Yeniləmə Aləti
+
+```bash
+python setup.py -u
+```
+---
 <details>
   <summary><b>𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢:</b></summary>
   
