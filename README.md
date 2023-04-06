@@ -1,58 +1,56 @@
-# TelegramMembersBot
-
-
+# Telegram Members Bot
 <p align="center">
   <img src="https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/.image/20191203_205322.jpg" width="470" height="150">
 </p>
 
 <p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen"></p>
 <p align="center">
-  <a href="https://github.com/th3unkn0n">
-    <img src="https://img.shields.io/github/followers/th3unkn0n?label=Follow&style=social">
+  <a href="https://github.com/offlineflood">
+    <img src="https://img.shields.io/github/followers/offlineflood?label=Follow&style=social">
   </a>
-  <a href="https://github.com/th3unkn0n/TeleGram-Group-Scraper">
-    <img src="https://img.shields.io/github/stars/th3unkn0n/TeleGram-Group-Scraper?style=social">
+  <a href="https://github.com/offlineflood/TelegramMembersBot">
+    <img src="https://img.shields.io/github/stars/offlineflood/TelegramMembersBot?style=social">
   </a>
 </p>
 <p align="center">
-  Telegram Group Scrapper
+  Telegram Members Bot
 </p>
 <p align="center">
 </p>
 
 ---
 
-## • API Setup
-* Go to http://my.telegram.org  and log in.
-* Click on API development tools and fill the required fields.
-* put app name you want & select other in platform Example :
-* copy "api_id" & "api_hash" after clicking create app ( will be used in setup.py )
+## • API Quraşdırma
+* http://my.telegram.org saytına daxil olun və daxil olun.
+* API inkişaf alətlərinə klikləyin və tələb olunan sahələri doldurun.
+* istədiyiniz proqram adını qoyun və platformada digərini seçin Misal:
+* Tətbiq yarat düyməsini kliklədikdən sonra "api_id" və "api_hash" kopyalayın (setup.py-də istifadə olunacaq)
 
-## • How To Install and Use
+## • Necə Quraşdırılır və İstifadə Edilir
 
 `$ pkg install -y git python`
 
-`$ git clone https://github.com/th3unkn0n/TeleGram-Scraper.git`
+`$ git clone https://github.com/offlineflood/TelegramMembersBot.git`
 
-`$ cd TeleGram-Scraper`
+`$ cd TelegramMembersBot`
 
-* Install requierments
+* Quraşdırma tələbləri
 
-`$ python3 setup.py -i`
+`$ python setup.py -i`
 
-* setup configration file ( apiID, apiHASH )
+* quraşdırma konfiqurasiya faylı (apiID, apiHASH)
 
-`$ python3 setup.py -c`
+`$ python setup.py -c`
 
-* To Genrate User Data
+* İstifadəçi məlumatlarını yaratmaq üçün
 
-`$ python3 scraper.py`
+`$ python scraper.py`
 
-* ( members.csv is default if you changed name use it )
-* Send Bulk sms To Collected Data 
+* (adı dəyişsəniz, member.csv defoltdur, ondan istifadə edin)
+* Toplanmış məlumatlara toplu sms göndərin 
 
-`$ python3 smsbot.py members.csv`
+`$ python smsbot.py members.csv`
 
-* Update Tool
+* Yeniləmə Aləti
 
-`$ python3 setup.py -u`
+`$ python setup.py -u`
