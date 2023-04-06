@@ -1,11 +1,8 @@
 # @DegGixM & @DejavuTeam & @DejavuSupport.
 
-
 """
-
 setup.py-ni yenidən işə sala bilərsiniz
 bəzi səhv dəyər əlavə etmisinizsə
-
 """
 re="\033[1;31m"
 gr="\033[1;32m"
