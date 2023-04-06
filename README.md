@@ -104,8 +104,8 @@ python add2group.py members.csv
 ```bash
 python setup.py -u
 ```
-</details>
 ---
+</details>
 <details>
   <summary><b>𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢:</b></summary>
   
