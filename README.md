@@ -104,7 +104,6 @@ python add2group.py members.csv
 ```bash
 python setup.py -u
 ```
----
 </details>
 <details>
   <summary><b>𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢:</b></summary>
@@ -112,5 +111,4 @@ python setup.py -u
   ❐ [𓅓𝘋𝘦𝘨𝘎𝘪𝘹𝘔𓅓](https://t.me/DegGixM)
   
   ❐ [❖𝘿𝙚𝙟𝙖𝙫𝙪 𝙏𝙚𝙖𝙢❖](https://t.me/DejavuTeam)
-</details>  
----
+</details> 
