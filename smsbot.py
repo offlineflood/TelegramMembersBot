@@ -1,4 +1,5 @@
-#!/bin/env python3
+# @DegGixM & @DejavuTeam & @DejavuSupport.
+#!/bin/env python
 from telethon.sync import TelegramClient
 from telethon.tl.types import InputPeerUser
 from telethon.errors.rpcerrorlist import PeerFloodError
