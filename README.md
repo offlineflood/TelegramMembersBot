@@ -49,7 +49,7 @@
 * (adı dəyişsəniz, member.csv defoltdur, ondan istifadə edin)
 * Toplanmış məlumatlara toplu sms göndərin.
 
-`$ python smsbot.py members.csv`
+`$ python add2group.py members.csv`
 
 * Yeniləmə Aləti
 
