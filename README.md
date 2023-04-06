@@ -30,7 +30,9 @@
 
 ```$ pkg install -y git python```
 
-```bash $ git clone https://github.com/offlineflood/TelegramMembersBot.git```
+```bash
+$ git clone https://github.com/offlineflood/TelegramMembersBot.git
+```
 
 ```$ cd TelegramMembersBot```
 
