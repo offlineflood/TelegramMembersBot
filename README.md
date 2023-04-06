@@ -75,9 +75,10 @@ $ python add2group.py members.csv
 ```bash
 $ python setup.py -u
 ```
+  </details>
+  
 ---
 
-</details>
 
 <details>
   <summary><b>𝙆𝙖𝙢𝙥𝙪𝙩𝙤𝙧 𝙪̈𝙘̧𝙪̈𝙣:</b></summary>
