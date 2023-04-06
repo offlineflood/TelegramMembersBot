@@ -1,4 +1,6 @@
+# @DegGixM & @DejavuTeam & @DejavuSupport.
 #!/bin/env python3
+
 from telethon.sync import TelegramClient
 from telethon.tl.functions.messages import GetDialogsRequest
 from telethon.tl.types import InputPeerEmpty, InputPeerChannel, InputPeerUser
@@ -21,7 +23,8 @@ def banner():
 {re} ║ {cy}├┤ │  ├┤ {re}║ ╦  ╚═╗{cy}│  ├┬┘├─┤├─┘├┤ ├┬┘
 {re} ╩ {cy}└─┘┴─┘└─┘{re}╚═╝  ╚═╝{cy}└─┘┴└─┴ ┴┴  └─┘┴└─
 
-            version : 1.0
+            versiya : 3.1
+	    @DegGixM & @DejavuTeam & @DejavuSupport
         """)
 
 cpass = configparser.RawConfigParser()
@@ -35,7 +38,7 @@ try:
 except KeyError:
     os.system('clear')
     banner()
-    print(re+"[!] run python3 setup.py first !!\n")
+    print(re+"[!] əvvəlcə python setup.py proqramını işə salın !!\n")
     sys.exit(1)
 
 client.connect()
@@ -43,7 +46,7 @@ if not client.is_user_authorized():
     client.send_code_request(phone)
     os.system('clear')
     banner()
-    client.sign_in(phone, input(gr+'[+] Enter the code: '+re))
+    client.sign_in(phone, input(gr+'[+] Kodu daxil edin: '+re))
  
 os.system('clear')
 banner()
@@ -86,13 +89,13 @@ for group in groups:
     print(gr+'['+cy+str(i)+gr+']'+cy+' - '+group.title)
     i+=1
 
-print(gr+'[+] Choose a group to add members')
-g_index = input(gr+"[+] Enter a Number : "+re)
+print(gr+'[+] Üzvlər əlavə etmək üçün qrup seçin')
+g_index = input(gr+"[+] Nömrə daxil edin : "+re)
 target_group=groups[int(g_index)]
  
 target_group_entity = InputPeerChannel(target_group.id,target_group.access_hash)
  
-print(gr+"[1] add member by user ID\n[2] add member by username ")
+print(gr+"[1] istifadəçi ID-si ilə üzv əlavə edin\n[2] istifadəçi adı ilə üzv əlavə edin ")
 mode = int(input(gr+"Input : "+re)) 
 n = 0
  
@@ -101,7 +104,7 @@ for user in users:
     if n % 50 == 0:
 	    time.sleep(1)
 	    try:
-	        print ("Adding {}".format(user['id']))
+	        print ("Əlavə edilir {}".format(user['id']))
 	        if mode == 1:
 	            if user['username'] == "":
 	                continue
@@ -109,15 +112,15 @@ for user in users:
 	        elif mode == 2:
 	            user_to_add = InputPeerUser(user['id'], user['access_hash'])
 	        else:
-	            sys.exit(re+"[!] Invalid Mode Selected. Please Try Again.")
+	            sys.exit(re+"[!] Yanlış Rejim Seçildi. Zəhmət olmasa bir daha cəhd edin.")
 	        client(InviteToChannelRequest(target_group_entity,[user_to_add]))
-	        print(gr+"[+] Waiting for 5-10 Seconds...")
+	        print(gr+"[+] 5-10 Saniyə gözləyin...")
 	        time.sleep(random.randrange(5, 10))
 	    except PeerFloodError:
-	        print(re+"[!] Getting Flood Error from telegram. \n[!] Script is stopping now. \n[!] Please try again after some time.")
+	        print(re+"[!] Telegramdan Daşqın Xətası Alınır. \n[!] Skript indi dayanır. \n[!] Bir müddət sonra yenidən cəhd edin.")
 	    except UserPrivacyRestrictedError:
-	        print(re+"[!] The user's privacy settings do not allow you to do this. Skipping.")
+	        print(re+"[!] İstifadəçinin məxfilik parametrləri bunu etməyə imkan vermir. Atlama.")
 	    except:
 	        traceback.print_exc()
-	        print(re+"[!] Unexpected Error")
+	        print(re+"[!] Gözlənilməz Xəta")
 	        continue
