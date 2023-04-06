@@ -1,6 +1,6 @@
 # Telegram Members Bot
 <p align="center">
-  <img src="https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/.image/20191203_205322.jpg" width="470" height="150">
+  <img src="https://raw.githubusercontent.com/offlineflood/TelegramMembersBot/master/.image/20191203_205322.jpg" width="470" height="150">
 </p>
 
 <p align="center"><img src="https://img.shields.io/badge/Version-3.1-brightgreen"></p>
