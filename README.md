@@ -58,32 +58,32 @@ $ cd TelegramMembersBot
 * Quraşdırma tələbləri
 
 ```bash
-$ python setup.py -i
+$ python3 setup.py -i
 ```
 
 * quraşdırma konfiqurasiya faylı (apiID, apiHASH).
 
 ```bash
-$ python setup.py -c
+$ python3 setup.py -c
 ```
 
 * İstifadəçi məlumatlarını yaratmaq üçün
 
 ```bash
-$ python scraper.py
+$ python3 scraper.py
 ```
 
 * (adı dəyişsəniz, member.csv defoltdur, ondan istifadə edin)
 * Toplanmış məlumatlara toplu sms göndərin.
 
 ```bash
-$ python add2group.py members.csv
+$ python3 add2group.py members.csv
 ```
 
 * Yeniləmə Aləti
 
 ```bash
-$ python setup.py -u
+$ python3 setup.py -u
 ```
   </details>
   
