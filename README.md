@@ -77,7 +77,7 @@ $ python3 scraper.py
 * Toplanmış məlumatlara toplu sms göndərin.
 
 ```bash
-$ python3 add2group.py members.csv
+$ python3 addgroup.py members.csv
 ```
 
 * Yeniləmə Aləti
@@ -113,7 +113,7 @@ python scraper.py
 * Toplanmış məlumatlara toplu sms göndərin.
 
 ```bash
-python add2group.py members.csv
+python addgroup.py members.csv
 ```
 
 * Yeniləmə Aləti
